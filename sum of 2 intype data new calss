@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head><title>javascript</title></head>
+<body></body>
+</html>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace sumadd
+{
+    class sum
+    {
+        public void sumcall()
+        {
+        int a = 10;
+        int b = 20;
+        int c = a + b;
+        Console.WriteLine("the sum is ="+c);
+        }
+        static void Main(string[] args)
+        {
+            sum m = new sum();
+            m.sumcall();
+            Console.ReadLine();
+        }
+    }
+}
